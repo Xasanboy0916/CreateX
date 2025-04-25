@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+/* Core styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #424551;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.section__btn1 {
+  padding: 16px 40px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(to right, #ff3f3a, #f75e05);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.sectuion__btn2 {
+  margin-right: 10px;
+  padding: 16px 40px;
+  border-radius: 4px;
+  border: 1px solid #ff3f3a;
+  color: #f75e05;
+  background: #feded4;
+  cursor: pointer;
+}
+/* Header section styles */
+.header {
+  padding: 20px;
+  background: #feded4;
+  height: 108px;
+  width: 1920;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__left,
+.header__list,
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__auth {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  color: #424551;
+  font-weight: 700;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header__auth > img {
+  height: 17.92px;
+  width: 16.67px;
+}
+/* Hero section styles */
+.hero {
+  background: url(../image/shapes.png);
+  background-color: #feded4;
+}
+.hero__wrapper {
+  padding: 10px 0;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.pleyer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hero__title {
+  padding: 40px 0;
+  width: 400px;
+  font-size: 44px;
+}
+.hero__btn {
+  margin-right: 10px;
+  padding: 16px 40px;
+  border-radius: 4px;
+  border: 1px solid #ff3f3a;
+  color: #f75e05;
+  background: #feded4;
+  cursor: pointer;
+}
+/* Header bottom styles */
+.hero__bottom {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-text {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.hero__bottom > i {
+  color: #f75e05;
+}
+.text {
+  margin: 50px 0;
+  font-size: 46px;
+}
+.descraption {
+  font-size: 16px;
+}
+/* About section sytyles */
+.about {
+  background: url();
+}
+.about__wrapper {
+  display: flex;
+  gap: 40px;
+}
+.about__subtitle {
+  font-size: 16px;
+}
+.about__title {
+  font-size: 46px;
+}
