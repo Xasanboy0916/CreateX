@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  transition: all 0.3s linear;
 }
 ul,
 ol {
@@ -29,7 +30,7 @@ a {
   letter-spacing: 0.5px;
   cursor: pointer;
 }
-.sectuion__btn2 {
+.section__btn2 {
   margin-right: 10px;
   padding: 16px 40px;
   border-radius: 4px;
@@ -37,6 +38,15 @@ a {
   color: #f75e05;
   background: #feded4;
   cursor: pointer;
+}
+.section__btn2:hover {
+  background: linear-gradient(to right, #ff3f3a, #f75e05);
+  color: #fff;
+}
+.section__title {
+  font-size: 46px;
+  line-height: 130%;
+  font-weight: 900;
 }
 /* Header section styles */
 .header {
@@ -94,15 +104,7 @@ a {
   width: 400px;
   font-size: 44px;
 }
-.hero__btn {
-  margin-right: 10px;
-  padding: 16px 40px;
-  border-radius: 4px;
-  border: 1px solid #ff3f3a;
-  color: #f75e05;
-  background: #feded4;
-  cursor: pointer;
-}
+
 /* Header bottom styles */
 .hero__bottom {
   padding: 50px 0;
@@ -127,9 +129,10 @@ a {
 }
 /* About section sytyles */
 .about {
-  background: url();
+  background: url(../image/background.svg);
 }
 .about__wrapper {
+  padding: 70px 0;
   display: flex;
   gap: 40px;
 }
@@ -138,4 +141,23 @@ a {
 }
 .about__title {
   font-size: 46px;
+}
+.right__discraption {
+  font-size: 16px;
+  color: #424551;
+}
+.right__text {
+  display: flex;
+  gap: 10px;
+}
+.right__text > i {
+  width: 16px;
+  height: 16px;
+  color: #ff3f3a;
+}
+.text {
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 160%;
 }
