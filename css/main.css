@@ -39,14 +39,14 @@ a {
   background: #feded4;
   cursor: pointer;
 }
-.section__btn2:hover {
-  background: linear-gradient(to right, #ff3f3a, #f75e05);
-  color: #fff;
-}
 .section__title {
   font-size: 46px;
   line-height: 130%;
   font-weight: 900;
+}
+.section__btn2:hover {
+  color: #fff;
+  background: linear-gradient(to right, #ff3f3a, #f75e05);
 }
 /* Header section styles */
 .header {
@@ -85,10 +85,13 @@ a {
 /* Hero section styles */
 .hero {
   background: url(../image/shapes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #feded4;
+  min-height: 100vh;
 }
 .hero__wrapper {
-  padding: 10px 0;
+  padding: 100px 0;
   display: flex;
   gap: 100px;
   align-items: center;
@@ -107,7 +110,7 @@ a {
 
 /* Header bottom styles */
 .hero__bottom {
-  padding: 50px 0;
+  padding: 72px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,7 +118,9 @@ a {
 .bottom-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 7px;
+  margin: 40px 0 64px 0;
 }
 .hero__bottom > i {
   color: #f75e05;
@@ -130,10 +135,13 @@ a {
 /* About section sytyles */
 .about {
   background: url(../image/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about__wrapper {
   padding: 70px 0;
   display: flex;
+  justify-content: space-between;
   gap: 40px;
 }
 .about__subtitle {
@@ -160,4 +168,11 @@ a {
   justify-content: center;
   font-size: 16px;
   line-height: 160%;
+}
+.about__btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(to right, #ff3f3a, #f75e05);
+  color: #fff;
 }
