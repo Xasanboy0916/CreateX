@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s linear;
+  text-transform: uppercase;
 }
 ul,
 ol {
@@ -30,6 +31,9 @@ a {
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+.section__btn1:hover {
+  opacity: 80%;
+}
 .section__btn2 {
   margin-right: 10px;
   padding: 16px 40px;
@@ -43,6 +47,13 @@ a {
   font-size: 46px;
   line-height: 130%;
   font-weight: 900;
+}
+.section__subtiitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #1e212c;
 }
 .section__btn2:hover {
   color: #fff;
@@ -83,12 +94,12 @@ a {
   width: 16.67px;
 }
 /* Hero section styles */
-.hero {
+.home {
   background: url(../image/shapes.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #feded4;
-  min-height: 100vh;
+  background-color: #feded5;
+  min-height: 1080px;
 }
 .hero__wrapper {
   padding: 100px 0;
@@ -110,9 +121,9 @@ a {
 
 /* Header bottom styles */
 .hero__bottom {
-  padding: 72px 0;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: space-between;
 }
 .bottom-text {
@@ -123,6 +134,7 @@ a {
   margin: 40px 0 64px 0;
 }
 .hero__bottom > i {
+  padding: 70px 0;
   color: #f75e05;
 }
 .text {
@@ -134,15 +146,43 @@ a {
 }
 /* About section sytyles */
 .about {
-  background: url(../image/background.svg);
+  margin: 128px 0;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 112px;
+}
+.about__title {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.right__text {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.right__text > i {
+  color: #f75e05;
+  font-size: 20px;
+}
+.right__discraption {
+  font-size: 16px;
+  color: #424551;
+}
+.about__btn {
+  margin-top: 32px;
+}
+/* .about {
+  background: url(../image/about__shapes.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .about__wrapper {
-  padding: 70px 0;
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 112px;
 }
 .about__subtitle {
   font-size: 16px;
@@ -175,4 +215,4 @@ a {
   border-radius: 4px;
   background: linear-gradient(to right, #ff3f3a, #f75e05);
   color: #fff;
-}
+} */
