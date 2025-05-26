@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "lato", sans-serif;
   transition: all 0.3s linear;
-  text-transform: uppercase;
+  /* text-transform: capitalize; */
 }
 ul,
 ol {
@@ -296,4 +296,76 @@ a {
   color: #424551;
   font-weight: 400;
   line-height: 130%;
+}
+/* Events section styles */
+/* .events {
+  background: url(../image/events\ background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.events__top {
+  padding: 50px 0;
+  text-align: center;
+}
+.events__card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.events__card--detabox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card__content--title {
+  width: 750px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #1e212c;
+}
+.card__content--descraption {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #787a80;
+}
+.card__title {
+  color: #ff3f3a;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 160%;
+  letter-spacing: 1px;
+}
+/* Sertificat section styles */
+.sertificate__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 128px;
+  position: absolute;
+}
+.sertificate__title {
+  margin-top: 10px;
+  width: 392px;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+}
+.sertificate__descraption {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 390px;
+  color: #424551;
+  font-size: 16px;
+}
+.sertificate__icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.sertificate__right > img {
+  position: relative;
+  top: 170px;
+  border-radius: 4px;
 }
