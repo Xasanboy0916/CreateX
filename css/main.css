@@ -298,11 +298,12 @@ a {
   line-height: 130%;
 }
 /* Events section styles */
-/* .events {
-  background: url(../image/events\ background.svg);
+.events {
+  padding: 256px 0 128px 0;
+  background: url(../image/eventsbacground.svg);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 .events__top {
   padding: 50px 0;
   text-align: center;
@@ -310,12 +311,17 @@ a {
 .events__card {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
+  width: 1230px;
+  height: 120px;
+  background-color: #fff;
+  margin-top: 25px;
+  border-radius: 5px;
 }
-.events__card--detabox {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.events__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .card__content--title {
   width: 750px;
@@ -336,6 +342,31 @@ a {
   font-weight: 900;
   line-height: 160%;
   letter-spacing: 1px;
+}
+.events__card--datebox {
+  display: flex;
+  align-items: center;
+}
+.events__card--date {
+  color: #ff3f3a;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 25px;
+}
+.events__card--content {
+  width: 712px;
+}
+.events__bottom {
+  margin-top: 50px;
+  margin-left: 390px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.events__bottom--title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 130%;
 }
 /* Sertificat section styles */
 .sertificate__wrapper {
